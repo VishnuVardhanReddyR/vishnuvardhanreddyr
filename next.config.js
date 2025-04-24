@@ -2,6 +2,15 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['media.licdn.com', 'cdn.sanity.io'],
+    remotePatterns:[
+      {
+        protocol: 'https',
+        hostname: 'media.licdn.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.sanity.io'
+      }
+    ]
   },
 }

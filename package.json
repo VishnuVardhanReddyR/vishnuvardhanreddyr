@@ -6,6 +6,7 @@
         "start": "next start"
     },
     "dependencies": {
+        "@formspree/react": "^3.0.0",
         "@heroicons/react": "^1.0.5",
         "@portabletext/react": "^3.0.11",
         "@sanity/image-url": "^1.0.2",

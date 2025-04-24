@@ -12,9 +12,9 @@ function MyOverview({ image, title, description, name, email, address, nameLabel
           initial={{ opacity: 0, x: -200 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
-          className="relative contrast-200 grayscale">
-          {/* <Image src={image} alt="Picture of the author" layout="fill" /> */}
-          <h1 className='text-3xl pr-8'>Vishnu Vardhan Reddy Rapuru</h1>
+          className="relative contrast-200 grayscale w-48 h-48 mr-8 rounded-full">
+          <Image src={image} alt="Picture of the author" layout="fill" className="rounded-full" />
+          {/* <h1 className='text-3xl pr-8'>Vishnu Vardhan Reddy Rapuru</h1> */}
         </motion.div>
         <div className='flex flex-col hidden md:block'>
           <div className='w-[0.1px] h-8 border-r-2 border-gray-500'></div>
